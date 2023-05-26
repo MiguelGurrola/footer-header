@@ -1,5 +1,5 @@
 header {
-    background-color: #f2f2f2;
+    background-color: #621132;
     padding: 2rem;
     display: flex;
     justify-content: space-between;
@@ -8,7 +8,7 @@ header {
 
   h1 {
     font-size: 2rem;
-    color: #333;
+    color: #ffffff;
     margin: 0;
   }
 
@@ -17,11 +17,16 @@ header {
     align-items: center;
   }
 
+#page-logo a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
   .nav-links a {
     display: inline-block;
     margin-left: 1rem;
     padding: 1rem 2rem;
-    background-color: #4caf50;
+    background-color: #1b3460;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -84,13 +89,13 @@ header {
   }
 
   footer {
-    background-color: #f2f2f2;
+    background-color: #621132;
     padding: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    color: #333;
+    color: #ffffff;
     font-size: 0.8rem;
   }
 
@@ -101,7 +106,7 @@ header {
 
   .footer-links a {
     margin: 0.5rem 1rem 0.5rem 0;
-    color: #333;
+    color: #ffffff;
     text-decoration: none;
   }
 
