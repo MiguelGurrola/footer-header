@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boletera ITD</title>
+  <link rel="stylesheet" href="header.css">
+  <script>
+    // Función JavaScript para manejar el menú de hamburguesa
+    function toggleMenu() {
+      var navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('responsive');
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div id="page-logo">
+      <a href="/index.html">Boletera ITD</a>
+  </div>
+    <div class="nav-links">
+      <a class="btn" href="contacto.html">Contacto</a>
+      <a class="btn" href="eventos.html">Eventos</a>
+    </div>
+      <div class="hamburger-menu" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>  
+  </header>
+  <footer>
+    <div class="footer-links">
+      <a href="contacto.html">Contacto</a>
+      <a href="/TyC/terminosycondiciones.html">Términos y condiciones</a>
+      <a href="/Politicas/politicas.html">Politicas</a>
+    </div>
+    <div>Todos los derechos reservados &copy; 2023</div>
+  </footer>
+</body>
+</html>
